@@ -16,5 +16,5 @@ gender_imputer = SimpleImputer(strategy='most_frequent')
 X[:,[0]] = gender_imputer.fit_transform(X[:,[0]])
 marry_imputer = SimpleImputer(strategy='most_frequent')
 X[:,[1]] = marry_imputer.fit_transform(X[:,[1]])
-print(cols)
+
 
